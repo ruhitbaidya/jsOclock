@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Javascript Oclock</title>
+    <style>
+        body{
+            background: #101A49;
+        }
+        .oclock{
+            width:450px;
+            margin:auto;
+            padding:30px;
+            background:#8FDACA;
+            margin-top:200px;
+            border-radius:5px;
+            
+        }
+        .clock_main_content{
+            padding:20px;
+            text-align: center;
+            background:#1F8598;
+            border-radius:5px;
+            color:#FFFFFF;
+            font-size:10px;
+            font-weight:300;
+        }
+        #timeset{
+            display:inline;
+        }
+        #dateContainer{
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="oclock">
+                        <div class="clock_main_content">
+                            <h1 id="timeset"> </h1> <small>AM</small>
+                            <div class="date">
+                                <h5 class="mt-3" id="dateContainer">sun</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
