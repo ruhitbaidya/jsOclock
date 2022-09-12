@@ -8,13 +8,14 @@ function oclocktimer(){
     let day = date.getUTCDay();
     let month = date.getMonth();
     let year = date.getFullYear();
+    let dates = date.getDate();
     console.log(day)
     let timezoon = 'AM';
 
     let allday = ['Sunday','Monday','Tuesday','Wednesday','Thurstday','Friday','Saturday'];
     let allMonth = ['January','February','March','April','May','Jun','July','August','September','October','Nobermber','December'];
 
-    let setdate = `${allday[day]} ${allMonth[month]} ${year}`;
+    let setdate = `${dates} ${allday[day]} ${allMonth[month]} ${year}`;
     
 
     if(hours === 0){
